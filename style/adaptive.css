@@ -1,0 +1,175 @@
+@media screen and (max-width: 1440px) {
+  .video-content {
+    flex-wrap: wrap
+  }
+
+  .video {
+    margin-right: 0;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  nav > ul {
+    flex-direction: column;
+  }
+  nav > ul > li {
+    margin-top: 15px;
+  }
+
+  .head {
+    font-size: 75px;
+    line-height: 75px;
+  }
+  .info-box {
+    position: static;
+    margin: 0 30px;
+  }
+
+  .picture-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 768px;
+  }
+
+  .header-menu__desktop {
+    display: none;
+  }
+
+  .header-menu.active {
+    
+    transform: translateX(0);
+  }
+
+  .menu-icon {
+    z-index: 5;
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 150px;
+    cursor: pointer;
+    width: 40px;
+    height: 20px;
+  }
+
+  .menu-icon span, .menu-icon::before, .menu-icon::after {
+    left: 0;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    transition: all 0.3s ease 0s;
+    background-color: #fff;
+
+  }
+
+  .menu-icon::before, .menu-icon::after {
+    content: "";
+  }
+
+  .menu-icon::before {
+    
+    top: 0;
+  }
+
+  .menu-icon::after {
+    bottom: 0;
+  }
+  .menu-icon span {
+    top: 50%;
+    transform: scale(1) translate(0px, -50%);
+  }
+
+  .swiper-navigation {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video-inner {
+    padding: 50px 30px;
+  }
+
+  .container {
+    padding: 0 30px;
+  }
+
+  .head {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .menu-icon {
+    top: 60px;
+    right: 15px;
+  }
+
+  .picture-bg {
+    min-height: 800px;
+  }
+
+
+  .header-menu {
+    width: 70%;
+  }
+
+  .head-section {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .btn,
+  .slide-btn {
+    font-size: 16px;
+    line-height: 16px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .header {
+    margin-top: 30px;
+  }
+
+  .info-box {
+    margin: 0 15px;
+  }
+
+  .video {
+    height: 300px;
+  }
+
+  .menu-icon {
+    width: 30px;
+    height: 15px;
+  }
+  .menu-icon::before {
+    height: 1px;
+  }
+
+  .slider {
+    padding: 0;
+  }
+
+  .head {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .picture-bg {
+    padding: 20px 0;
+  }
+
+  .head > span {
+    margin-top: 10px;
+  }
+  .head-section {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}

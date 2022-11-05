@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Vera Humana 95';
+	src: url('../fonts/vera_humana_95.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/vera_humana_95.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/vera_humana_95.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/vera_humana_95.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/vera_humana_95.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/vera_humana_95.svg#vera_humana_95') format('svg'); /* Chrome < 4, Legacy iOS */
+}
